@@ -1,0 +1,10 @@
+Model,Train Accuracy,Test Accuracy,Best Params
+Random Forest,1.0,0.7284473628468545,"{'max_depth': None, 'n_estimators': 100}"
+SVM,0.7656831593281889,0.7055708536327049,"{'C': 1, 'gamma': 'auto', 'kernel': 'rbf'}"
+Logistic Regression,0.6941443486155243,0.6852361787756831,{'C': 1}
+Decision Tree,0.720108942351339,0.6905316670196993,"{'criterion': 'gini', 'max_depth': 6}"
+KNN,1.0,0.6973098919720399,"{'metric': 'manhattan', 'n_neighbors': 29, 'weights': 'distance'}"
+XGB Classifier,0.7737630503858375,0.7411565346324931,"{'learning_rate': 0.2, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100}"
+Gradient Boosting,0.7765773944620972,0.7445456471086634,"{'learning_rate': 0.1, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 200}"
+Adaboost,0.7562414888788016,0.7464520228765092,"{'learning_rate': 1, 'n_estimators': 100}"
+Naive Bayes,0.7004993191103042,0.6934971404363482,{'var_smoothing': 1e-09}
